@@ -1,14 +1,13 @@
-import java.util.Scanner;  
+import java.util.*;  
 public class boswap  
 {  
 public static void main(String args[])  
 {  
-int a, b;  
 Scanner scan= new Scanner(System.in);  
 System.out.print("Enter the first number: ");  
-a = scan.nextInt();  
+int a = scan.nextInt();  
 System.out.print("Enter the second number: ");  
-b = scan.nextInt();  
+int b = scan.nextInt();  
 System.out.println("Before swapping:");  
 System.out.println("a = " +a +", b = " +b);  
 a = a ^ b;//a=5  
@@ -18,3 +17,4 @@ System.out.println("After swapping:");
 System.out.print("a = " +a +", b = " +b);  
 }  
 }  
+
